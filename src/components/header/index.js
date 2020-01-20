@@ -5,7 +5,7 @@ const Header = () => (
   <header className="header">
     <div className="info">
       <h1>Jakob Løkke Madsen</h1>
-      <div className="description">Freelance web developer</div>
+      <div className="description">Digital product creator</div>
 
       <div className="contact">
         <p>
@@ -24,7 +24,7 @@ const Header = () => (
       </div>
     </div>
     <div className="photo">
-      <img src="/assets/PORTRAET_074_cropped.png" width={100} alt="Jakob Løkke Madsen" />
+      <img src="/assets/PORTRAET_074_cropped_small.jpg" alt="Jakob Løkke Madsen" />
     </div>
   </header>
 );
