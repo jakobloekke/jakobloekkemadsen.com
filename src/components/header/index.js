@@ -21,13 +21,10 @@ const Header = () => (
             linkedin.com/in/jakobloekkemadsen
           </a>
         </p>
-        <p>
-          <a href="https://twitter.com/jakobloekke">twitter.com/jakobloekke</a>
-        </p>
       </div>
     </div>
     <div className="photo">
-      <img src="/assets/PORTRAET_074_cropped.png" width={100} alt="" />
+      <img src="/assets/PORTRAET_074_cropped.png" width={100} alt="Jakob Løkke Madsen" />
     </div>
   </header>
 );
