@@ -5,26 +5,33 @@ const Header = () => (
   <header className="header">
     <div className="info">
       <h1>Jakob Løkke Madsen</h1>
-      <div className="description">Freelance senior frontend developer</div>
+
+      <div className="description">
+        <div>Freelance senior frontend developer</div>
+        <div>Aarhus, Denmark</div>
+      </div>
 
       <div className="contact">
-        <p>
+        <div>
           <a href="callto:+45 26 65 25 68">+45 26 65 25 68</a>
-        </p>
-        <p>
+        </div>
+        <div>
           <a href="mailto:jakob@jakobloekkemadsen.com">
             jakob@jakobloekkemadsen.com
           </a>
-        </p>
-        <p>
+        </div>
+        <div>
           <a href="https://linkedin.com/in/jakobloekkemadsen">
             linkedin.com/in/jakobloekkemadsen
           </a>
-        </p>
+        </div>
       </div>
     </div>
     <div className="photo">
-      <img src="/assets/PORTRAET_074_cropped_small.jpg" alt="Jakob Løkke Madsen" />
+      <img
+        src="/assets/PORTRAET_074_cropped_small.jpg"
+        alt="Jakob Løkke Madsen"
+      />
     </div>
   </header>
 );

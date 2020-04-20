@@ -25,6 +25,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f3f3f3;
   color: #111;
+
+  padding: 3rem;
 }
 
 h1,
@@ -37,27 +39,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* page header */
-.header {
-  padding: 0 3rem;
-  margin: 3rem 0 0;
-}
-
-.header .description,
-.header .author,
-.header .contact {
-  font-size: 1rem;
-  margin: 0 0 1rem;
-}
-.header .description p,
-.header .author p,
-.header .contact p {
-  margin: 0;
-}
-
-.header .description {
-  margin-bottom: 3rem;
-}
 
 /* page footer */
 footer {
@@ -67,25 +48,35 @@ footer {
 .header {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .header .info {
   flex: 2;
 }
 
+.header .info h1 {
+  margin-bottom: 1rem;
+}
+
+.header .info .description {
+  margin-bottom: 1rem;
+}
+
 .header .photo {
   flex: 1;
   text-align: right;
   height: 0;
-  padding-bottom: 50%;
   margin-left: 3rem;
 }
 
 .header .photo img {
   border-radius: .5rem;
-  width: 100%;
+  width: auto;
   max-width: 15vw;
   min-width: 150px;
+  max-height: 300px;
 }
 
 .header .description {

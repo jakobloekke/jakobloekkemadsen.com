@@ -25,13 +25,16 @@ export default class App extends Component {
 			<Provider value={props}>
 				<div id="app">
 					<Header />
-					{/*<Router onChange={this.handleRoute}>*/}
-					{/*	<Home path="/" />*/}
-					{/*	<Blogs path="/blogs/" />*/}
-					{/*	<Blog path="/blog/:name" />*/}
-					{/*	<Contact path="/contact/" />*/}
-					{/*	<ContactSuccess path="/contact/success" />*/}
-					{/*</Router>*/}
+					<Router onChange={this.handleRoute}>
+						{/*<Home path="/" />*/}
+						{/*<Blogs path="/blogs/" />*/}
+						{/*<Blog path="/blog/:name" />*/}
+						{/*<Contact path="/contact/" />*/}
+						{/*<ContactSuccess path="/contact/success" />*/}
+					</Router>
+
+
+
 				</div>
 			</Provider>
 		);
