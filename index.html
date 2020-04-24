@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Freelance web- og frontend udvikler</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Gridlover */
+      body {
+        font-size: 1.0625rem;
+        line-height: 1.875rem;
+        padding: 0;
+        margin: 0;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 0;
+        line-height: 1;
+      }
+
+      /* The rest */
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f3f3f3;
+        color: #111;
+
+        padding: 3rem;
+      }
+
+      h1,
+      a {
+        color: tomato;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* page footer */
+      footer {
+        margin: 3em 0;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+      }
+
+      .header .info {
+        flex: 2;
+      }
+
+      .header .info h1 {
+        margin-bottom: 1rem;
+      }
+
+      .header .info .description {
+        margin-bottom: 1rem;
+      }
+
+      .header .photo {
+        flex: 1;
+        text-align: right;
+        height: 0;
+        margin-left: 3rem;
+      }
+
+      .header .photo img {
+        border-radius: 0.5rem;
+        width: auto;
+        max-width: 15vw;
+        min-width: 150px;
+        max-height: 300px;
+      }
+
+      .header .description {
+        font-size: 1em;
+      }
+
+      @media all and (max-width: 650px) {
+        .header {
+          flex-direction: column-reverse;
+        }
+
+        .header .photo {
+          text-align: left;
+          height: auto;
+          padding-bottom: 1rem;
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="info">
+          <h1>Jakob Løkke Madsen</h1>
+          <div class="description">
+            <div>Freelance web- og frontend udvikler</div>
+            <div>Aarhus, Denmark</div>
+          </div>
+          <div class="contact">
+            <div><a href="callto:+45 26 65 25 68">+45 26 65 25 68</a></div>
+            <div>
+              <a href="mailto:jakob@jakobloekkemadsen.com"
+                >jakob@jakobloekkemadsen.com</a
+              >
+            </div>
+            <div>
+              <a href="https://linkedin.com/in/jakobloekkemadsen"
+                >linkedin.com/in/jakobloekkemadsen</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img
+            src="/assets/PORTRAET_074_cropped_small.jpg"
+            alt="Jakob Løkke Madsen"
+          />
+        </div>
+      </header>
+      <div>
+        Ekspert i:
+        <ul>
+          <li>Udvikling af web-applikationer</li>
+          <li>Angular, React og Vue</li>
+          <li>DevOps og arkitektur</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
