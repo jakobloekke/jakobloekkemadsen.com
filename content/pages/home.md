@@ -3,4 +3,4 @@ title: Home
 ---
 Her står noget om mig!
 
-Og noget mere.
+Og noget mere. Yep!
