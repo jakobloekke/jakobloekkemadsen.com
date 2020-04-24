@@ -1,9 +1,8 @@
 import { h } from "preact";
 import { useEffect } from 'preact/hooks';
 import style from "./style";
-import {usePrerenderData} from "@preact/prerender-data-provider";
 
-const Home = (props) => {
+const Home = () => {
 
 	/**
 	 * Netlify CMS's accept invite link land on home page.
@@ -17,11 +16,15 @@ const Home = (props) => {
 		}
 	},[]);
 
-	const [data, isLoading] = usePrerenderData(props);
 
 	return (
 		<div>
-			{isLoading ? 'Loading ...' : <pre>{JSON.stringify(data)}</pre>}
+			Ekspert i:
+			<ul>
+				<li>Udvikling af web-applikationer</li>
+				<li>Angular, React og Vue</li>
+				<li>DevOps og arkitektur</li>
+			</ul>
 		</div>
 	);
 };

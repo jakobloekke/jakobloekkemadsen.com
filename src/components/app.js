@@ -26,8 +26,8 @@ export default class App extends Component {
 				<div id="app">
 					<Header />
 					<Router onChange={this.handleRoute}>
-						<Home path="/home" />
-						{/*<Blogs path="/blogs/" />*/}
+						<Home path="/" />
+						<Blogs path="/blogs/" />
 						{/*<Blog path="/blog/:name" />*/}
 						{/*<Contact path="/contact/" />*/}
 						{/*<ContactSuccess path="/contact/success" />*/}
