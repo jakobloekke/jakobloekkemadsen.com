@@ -8,11 +8,10 @@ module.exports = () => {
 		{
 			url: '/',
 			seo: {
+				title: 'Freelance web- og frontend udvikler',
 				cover: '/assets/profile.jpg'
 			}
-		},
-		{ url: '/contact/' },
-		{ url: '/contact/success' }
+		}
 	];
 
 	// adding blogs list posts page

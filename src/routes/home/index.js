@@ -18,7 +18,7 @@ const Home = () => {
 
 	return (
 		<div>
-			<p>I do web app development in </p>
+			
 		</div>
 	);
 };

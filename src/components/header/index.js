@@ -7,7 +7,7 @@ const Header = () => (
       <h1>Jakob Løkke Madsen</h1>
 
       <div className="description">
-        <div>Freelance senior frontend developer</div>
+        <div>Freelance web- og frontend udvikler</div>
         <div>Aarhus, Denmark</div>
       </div>
 
