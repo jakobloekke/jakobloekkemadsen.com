@@ -2,6 +2,8 @@
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Freelance web- og frontend udvikler</title>
 
     <link
@@ -23,9 +25,15 @@
 
       h1 {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 0;
         line-height: 1;
+      }
+
+      @media all and (min-width: 800px){
+        h1 {
+          font-size: 3rem;
+        }
       }
 
       /* The rest */
@@ -33,7 +41,13 @@
         font-family: "Montserrat", sans-serif;
         background-color: #f3f3f3;
         color: #111;
-        padding: 3rem;
+        padding: 2rem;
+      }
+
+      @media all and (min-width: 800px){
+        body {
+          padding: 3rem;
+        }
       }
 
       h1,
@@ -46,16 +60,10 @@
         text-decoration: underline;
       }
 
-      /* page footer */
-      footer {
-        margin: 3em 0;
-      }
-
       .header {
         display: flex;
         justify-content: space-around;
         padding-bottom: 5%;
-        margin-bottom: 5%;
       }
 
       .header .info {
@@ -109,7 +117,7 @@
         <div class="info">
           <h1>Jakob Løkke Madsen</h1>
           <div class="description">
-            <div>Freelance web- og frontend udvikler</div>
+            <div>Freelance web- og frontend udvikler / developer</div>
             <div>Aarhus, Denmark</div>
           </div>
           <div class="contact">
@@ -129,15 +137,9 @@
           />
         </div>
       </header>
-      <hr>
 
       <div>
-        Ekspert i:
-        <ul>
-          <li>Udvikling af web-applikationer</li>
-          <li>Angular, React og Vue</li>
-          <li>DevOps og arkitektur</li>
-        </ul>
+        Ekspert i udvikling af web-applikationer i Angular, React og Vue.
       </div>
     </div>
 
