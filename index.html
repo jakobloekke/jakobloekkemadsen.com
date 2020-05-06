@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Freelance web- og frontend udvikler</title>
+    <title>Jakob Løkke Madsen - freelance web developer</title>
 
     <link
+      href="https://fonts.googleapis.com/css2?family=Muli:200&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
     />
     <style>
       * {
@@ -19,38 +23,30 @@
         border-top: 4px solid tomato;
       }
 
-      /* Gridlover */
-      body {
-        font-size: 1.0625rem;
-        line-height: 1.875rem;
-        padding: 0;
-        margin: 0;
-      }
-
-      h1 {
-        font-weight: 700;
-        font-size: 2rem;
-        margin: 0;
-        line-height: 1;
-      }
-
-      @media all and (min-width: 800px){
-        h1 {
-          font-size: 3rem;
-        }
-      }
-
-      /* The rest */
       body {
         font-family: "Montserrat", sans-serif;
         background-color: #f3f3f3;
         color: #111;
         padding: 2rem;
+        letter-spacing: .0125rem;
+        font-size: 1.125rem;
       }
 
       @media all and (min-width: 800px){
         body {
-          padding: 3rem;
+          padding: 4rem;
+        }
+      }
+
+      h1 {
+        font-family: "Muli", sans-serif;
+        font-weight: 200;
+        margin: 0;
+      }
+
+      @media all and (min-width: 1024px) {
+        h1 {
+          font-size: 2.5rem;
         }
       }
 
@@ -64,32 +60,56 @@
         text-decoration: underline;
       }
 
+      .main {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
       .header {
         display: flex;
         justify-content: space-around;
         padding-bottom: 5%;
       }
 
-      .header .info {
+      @media all and (min-width: 800px) {
+        .header {
+          margin-top: 3rem;
+        }
+      }
+
+      .header__info {
         flex: 2;
       }
 
-      .header .info h1 {
+      .header__title {
+        margin-bottom: 0rem;
+      }
+
+      .header__description {
         margin-bottom: 1rem;
       }
 
-      .header .info .description {
-        margin-bottom: 1rem;
+      .header__description-primary {
+        font-size: 1.25em;
+        margin-bottom: 2rem;
       }
 
-      .header .photo {
+      .header__description-secondary {
+      }
+
+      .header__contact {
+        display: none;
+        line-height: 2;
+      }
+
+      .header__photo {
         flex: 1;
         text-align: right;
         height: 0;
         margin-left: 3rem;
       }
 
-      .header .photo img {
+      .header__photo img {
         border-radius: 0.5rem;
         width: auto;
         max-width: 15vw;
@@ -97,16 +117,12 @@
         max-height: 300px;
       }
 
-      .header .description {
-        font-size: 1em;
-      }
-
       @media all and (max-width: 650px) {
         .header {
           flex-direction: column-reverse;
         }
 
-        .header .photo {
+        .header__photo {
           text-align: left;
           height: auto;
           padding-bottom: 1rem;
@@ -116,25 +132,20 @@
     </style>
   </head>
   <body>
-    <div>
+    <main class="main">
       <header class="header">
-        <div class="info">
-          <h1>Jakob Løkke Madsen</h1>
-          <div class="description">
-            <div>Freelance web- og frontend udvikler / developer</div>
-            <div>Aarhus, Denmark</div>
-          </div>
-          <div class="contact">
-            <div><a href="callto:+45 26 65 25 68">+45 26 65 25 68</a></div>
-            <div>
-              <a href="mailto:jakob@jakobloekkemadsen.com">jakob@jakobloekkemadsen.com</a>
-            </div>
-            <div>
-              <a href="https://linkedin.com/in/jakobloekkemadsen">linkedin.com/in/jakobloekkemadsen</a>
+        <div class="header__info">
+          <h1 class="header__title">Hi, I'm Jakob–</h1>
+          <div class="header__description">
+            <div class="header__description-primary">a freelance web developer, based in Aarhus, Denmark</div>
+            <div class="header__description-secondary">
+              <p>I help put compelling user experiences online.</p>
+              <p>I'm pragmatic and friendly and focus on fusing UX, design and technology. That's where the magic happens!</p>
             </div>
           </div>
+
         </div>
-        <div class="photo">
+        <div class="header__photo">
           <img
             src="/PORTRAET_074_cropped_small.jpg"
             alt="Jakob Løkke Madsen"
@@ -142,8 +153,16 @@
         </div>
       </header>
 
+
+    </main>
+
+    <div class="header__contact">
+      <div><a href="callto:+45 26 65 25 68">+45 26 65 25 68</a></div>
       <div>
-        Ekspert i udvikling af web-applikationer i Angular, React og Vue.
+        <a href="mailto:jakob@jakobloekkemadsen.com">jakob@jakobloekkemadsen.com</a>
+      </div>
+      <div>
+        <a href="https://linkedin.com/in/jakobloekkemadsen">linkedin.com/in/jakobloekkemadsen</a>
       </div>
     </div>
 
