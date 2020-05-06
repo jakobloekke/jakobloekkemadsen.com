@@ -4,21 +4,24 @@ title: Home
 ---
 
 # Hi, I'm Jakob–
-<div class="greeting">a friendly freelance web developer, based in Aarhus, Denmark</div>
+<div class="greeting">a friendly freelance developer, based in Aarhus, Denmark</div>
+
+I'm passionate about the web as a platform for enhancing focus, meaning and effiency in the world.
 
 Magic happens when ***UX, design and technology*** are fused.\
-And I have many years of experience in making that happen.
+I have many years of experience in making that happen.
 
-I'm passionate about the web as a platform for bringing focus, meaning and effiency to the world.*
 
 <div class="header__defluff">
-  * <em>"What a load of fluff ... Could you just tell me what you do, please?"</em>
+  <em>"Ok that's a little fluffy ... what is it that you do, again?"</em>
 
-  Well, since putting my first website online in 1999 (thanks, Adobe Golive), I have worn many hats: Web designer, UX/IA designer, consultant, frontend developer, full stack developer.
+  Well thanks for asking!\
+  Since putting my first website online in 1999 (thanks, Dreamweaver), I have been a web designer, seo expert, UX/interaction designer, consultant, frontend developer, mobile developer, full stack developer and startup founder.
 
-  I've seen the web evolve from a place for personal PHP websites, through huge enterprise CMS sites in Sharepoint and Sitecore and into a platform for applications and interactive data visualizations in a world of big data, IOT and machine learning.
+  I've seen the web evolve from a place for personal PHP websites, through huge enterprise CMS sites in Sharepoint and Sitecore and into a mature platform for business critical applications.
 
-  Today, I specialize in creating modern web applications.\
+  Today, I specialize in creating modern web applications that bring focus and clarity in our busy world of big data, IOT and machine learning.
+
   I'm equally at home in frameworks such as ***Angular, React and Vue***.
 </div>
 
