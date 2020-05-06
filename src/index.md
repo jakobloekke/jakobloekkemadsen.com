@@ -9,11 +9,11 @@ title: Home
 I'm passionate about the web as a platform for enhancing focus, meaning and effiency in the world.
 
 Magic happens when ***UX, design and technology*** are fused.\
-I have many years of experience in making that happen.
+I have many years of experience making that happen.
 
 
 <div class="header__defluff">
-  <em>"Ok that's a little fluffy ... what is it that you do, again?"</em>
+  <em>"Ok, that's fluffy ... what is it that you do, again?"</em>
 
   Well thanks for asking!\
   Since putting my first website online in 1999 (thanks, Dreamweaver), I have been a web designer, seo expert, UX/interaction designer, consultant, frontend developer, mobile developer, full stack developer and startup founder.
