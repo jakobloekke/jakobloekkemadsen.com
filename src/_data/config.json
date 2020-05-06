@@ -1,0 +1,20 @@
+{
+  "name": "jakobloekkemadsen.com",
+  "shortDesc": "Jakob Løkke Madsen – freelance web developer",
+  "url": "https://www.jakobloekkemadsen.com",
+  "lang": "en",
+  "authorHandle": "@jakobloekke",
+  "authorName": "Jakob Løkke Madsen",
+  "syntaxTheme": "prism-material-light.css",
+  "permalinkClass": ["permalink"],
+  "iframeClass": ["iframes-wrapper"],
+  "codeClass": ["code-wrapper"],
+  "figureClass": ["figure"],
+  "paths": {
+    "src": "src",
+    "blogdir": "blog",
+    "casesdir": "cases",
+    "includes": "components",
+    "output": "dist"
+  }
+}

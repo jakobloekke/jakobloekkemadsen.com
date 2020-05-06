@@ -1,0 +1,31 @@
+<html lang="{{ config.lang }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    {% include "meta.njk" %}
+    {% block head %}{% endblock %}
+    <link
+     href="https://fonts.googleapis.com/css2?family=Muli:200&display=swap"
+      rel="stylesheet"
+      />
+      <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+  />
+
+    <style>{% include "../../../dist/assets/css/app.css" %}</style>
+  </head>
+  <body>
+    {% block content %}{% endblock content %}
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-3365089-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-3365089-3');
+    </script>
+  </body>
+</html>

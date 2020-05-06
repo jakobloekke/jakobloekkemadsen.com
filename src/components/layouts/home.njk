@@ -1,0 +1,19 @@
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+  <main class="main">
+
+    <header class="header">
+      <div class="header__content">
+        {{ content | safe }}
+      </div>
+      <div class="header__photo">
+        <img
+          src="/cover.jpg"
+          alt="Jakob Løkke Madsen"
+        />
+      </div>
+    </header>
+
+  </main>
+{% endblock %}
