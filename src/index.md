@@ -9,11 +9,11 @@ title: Home
 
 I'm passionate about the web as a platform for enhancing focus, meaning and effiency in the world.
 
-Magic happens when **_UX, design and technology_** are fused.\
-With this I have many years of experience.<sup>\*</sup>
+Magic appears when **_UX, design and technology_** are fused.\
+I have many years of experience making that happen.<sup>\*</sup>
 
 <div class="header__defluff">
-  <em><sup>*</sup>"Wow, that's fluffy ... what is it that you do, exactly?"</em>
+  <em><sup>*</sup>"Wow, that's fluffy ... what do you do, exactly?"</em>
 
 Well, thanks for asking. 🙂
 
