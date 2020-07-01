@@ -5,7 +5,7 @@ title: Home
 
 # Hi, I'm Jakob–
 
-<div class="greeting">a friendly freelance developer, based in Aarhus, Denmark</div>
+<div class="greeting">a friendly freelance consultant and developer, based in Aarhus, Denmark</div>
 
 I'm passionate about the web as a platform for enhancing focus, meaning and effiency in the world.
 
@@ -36,7 +36,7 @@ Every day, I learn something new, both technically and otherwise.\
 
 jakobloekkemadsen.com ApS\
 Åkandevej 4\
-Viby J\
+8260 Viby J\
 Denmark
 
 [+45 26 65 25 68](callto:+4526652568)\
