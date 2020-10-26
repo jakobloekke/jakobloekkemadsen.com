@@ -7,7 +7,7 @@ title: Home
 
 <div class="greeting">a friendly web consultant, based in Aarhus, Denmark</div>
 
-<div class="about">I do advanced frontend development, web applications and advisory consulting about web technology, architecture and strategy.</div>
+<div class="about">I do advanced frontend development, web applications and consulting on matters such as web related technology, architecture and strategy.</div>
 
 <div class="contact">
 
