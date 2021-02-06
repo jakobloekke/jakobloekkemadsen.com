@@ -1,24 +1,39 @@
+:root {
+  --ratio: 1.5;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   border-top: 4px solid tomato;
-  font-size: 20px;
+  font-size: var(--s1);
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f3f3f3;
   color: #111;
-  padding: 2rem;
+  padding: var(--s1);
   letter-spacing: .0125rem;
-  font-size: 1.125rem;
+  font-size: var(--s0);
 }
 
 @media all and (min-width: 800px){
   body {
-    padding: 4rem;
+    padding: var(--s1);
   }
 }
 
@@ -30,7 +45,7 @@ h1 {
 
 @media all and (min-width: 1024px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: var(--s3);
   }
 }
 
@@ -45,8 +60,14 @@ a:hover {
 }
 
 .main {
+  font-family: "Muli", sans-serif;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.greeting {
+  font-size: var(--s1);
+  margin-bottom: var(--s2);
 }
 
 .header {
@@ -57,18 +78,12 @@ a:hover {
 
 @media all and (min-width: 800px) {
   .header {
-    margin-top: 3rem;
+    margin-top: var(--s3);
   }
 }
 
 .header__content {
   flex: 2;
-}
-
-.greeting {
-  font-family: "Muli", sans-serif;
-  font-size: 1.25em;
-  margin-bottom: 1.75rem;
 }
 
 .header__contact {
@@ -79,7 +94,7 @@ a:hover {
   flex: 1;
   text-align: right;
   height: 0;
-  margin-left: 3rem;
+  margin-left: var(--s3);
 }
 
 .header__photo img {
@@ -98,33 +113,7 @@ a:hover {
   .header__photo {
     text-align: left;
     height: auto;
-    padding-bottom: 1rem;
+    padding-bottom: var(--s1);
     margin-left: 0;
   }
-}
-
-.header__defluff {
-  font-size: 1rem;
-  margin-top: 5rem;
-  color: gray;
-}
-
-@media all and (min-width: 800px) {
-  .header__defluff {
-    margin-left: 2rem;
-  }
-}
-
-.contact {
-  color: gray;
-  margin-top: 5rem;
-  line-height: 1.5;
-  font-size: .85rem;
-}
-
-.contact > h3 {
-  font-family: "Muli", sans-serif;
-  font-weight: 200;
-  font-size: 1rem;
-  margin: 0 0 .5rem;
 }

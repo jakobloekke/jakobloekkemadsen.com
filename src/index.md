@@ -3,15 +3,11 @@ layout: 'home'
 title: Home
 ---
 
-# Hi, I'm Jakob–
+# Hi, I'm Jakob
 
-<div class="greeting">a friendly web consultant, based in Aarhus, Denmark</div>
+<div class="greeting">a friendly web developer, based in Aarhus, Denmark</div>
 
-<div class="about">I do advanced frontend development, web applications and consulting on matters such as web related technology, architecture and strategy.</div>
-
-<div class="contact">
-
-### Reach me here:
+I help out with advanced frontend development, web applications and decisions on web technology, architecture and strategy.
 
 jakobloekkemadsen.com ApS\
 c/o Jakob Løkke Madsen\
@@ -22,8 +18,6 @@ Denmark
 [+45 26 65 25 68](callto:+4526652568)\
 [jakob@jakobloekkemadsen.com](mailto:jakob@jakobloekkemadsen.com)\
 [linkedin.com/in/jakobloekkemadsen](https://linkedin.com/in/jakobloekkemadsen)
-
-</div>
 
 <script type="application/ld+json">
 {

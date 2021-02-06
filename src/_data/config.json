@@ -12,8 +12,6 @@
   "figureClass": ["figure"],
   "paths": {
     "src": "src",
-    "blogdir": "blog",
-    "casesdir": "cases",
     "includes": "components",
     "output": "dist"
   }
