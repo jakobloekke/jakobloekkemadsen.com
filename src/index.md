@@ -7,7 +7,7 @@ title: Home
 
 <div class="greeting">a friendly web developer, based in Aarhus, Denmark</div>
 
-I help out with advanced frontend development, web applications and decisions on web technology, architecture and strategy.
+I help out with advanced frontend development, web applications and decisions on organization, architecture and strategy.
 
 jakobloekkemadsen.com ApS\
 c/o Jakob Løkke Madsen\
@@ -16,8 +16,8 @@ c/o Jakob Løkke Madsen\
 Denmark
 
 [+45 26 65 25 68](callto:+4526652568)\
-[jakob@jakobloekkemadsen.com](mailto:jakob@jakobloekkemadsen.com)\
-[linkedin.com/in/jakobloekkemadsen](https://linkedin.com/in/jakobloekkemadsen)
+[Email](mailto:jakob@jakobloekkemadsen.com)\
+[Linkedin](https://linkedin.com/in/jakobloekkemadsen)
 
 <script type="application/ld+json">
 {
