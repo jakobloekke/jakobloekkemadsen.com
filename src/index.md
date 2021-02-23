@@ -9,8 +9,10 @@ title: Home
 
 I help out with advanced frontend development, web applications and decisions on organization, architecture and strategy.
 
+<div class="spacer">-</div>
+
 jakobloekkemadsen.com ApS\
-c/o Jakob Løkke Madsen\
+Jakob Løkke Madsen\
 Åkandevej 4\
 8260 Viby J\
 Denmark
